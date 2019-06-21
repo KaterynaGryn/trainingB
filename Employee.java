@@ -6,7 +6,7 @@ public class Employee extends Person {
 
 
 
-    public Employee(int id, String firstName, String lastName, int age) {
+    public Employee(int id, String firstName, String lastName, int age, Enum role) {
         super(id, firstName, lastName, age);
     }
 

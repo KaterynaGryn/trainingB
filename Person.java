@@ -11,6 +11,9 @@ public class Person {
         this.lastName = lastName;
         this.age = age;
     }
+    public Person(){
+
+    }
 
     public int getId() {
         return id;

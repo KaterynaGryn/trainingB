@@ -5,10 +5,10 @@ public class Employee extends Person {
     private Company company;
 
 
-    public Employee(/*int id, String firstName, String lastName,*/ Role role, Float salary, Company company) {
-//        super.setId(id);
-//        super.setFirstName(firstName);
-//        super.setLastName(lastName);
+    public Employee(int id, String firstName, String lastName, Role role, Float salary, Company company) {
+        setId(id);
+        setFirstName(firstName);
+        setLastName(lastName);
         this.role = role;
         this.salary = salary;
         this.company = company;
